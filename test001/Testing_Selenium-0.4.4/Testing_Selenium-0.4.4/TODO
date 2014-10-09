@@ -1,0 +1,8 @@
+- Fix the getHtmlSource when using PHP native functions.
+ Before fixing this bug, please use curl or PEAR HTTP_Request when using getHtmlSource.
+
+- Investigate getAllButtons, and getAllLinks methods behavior.(Bug #8893)
+
+- Two driver options is confusing, maybe?
+
+

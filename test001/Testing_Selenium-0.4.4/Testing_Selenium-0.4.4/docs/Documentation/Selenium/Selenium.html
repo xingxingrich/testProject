@@ -1,0 +1,2434 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Selenium</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Selenium</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Selenium</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Shin Ohno &lt;<a href="mailto:ganchiku@gmail.com">ganchiku@gmail.com</a>&gt;</li>
+				<li><span class="field">version:</span> 0.1.4</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_Selenium.php.html">/Selenium.php</a> (line <span class="field">52</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+												<div class="method-definition">
+											<span class="method-result">Selenium</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$browser</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$browserUrl</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$host</span> = <span class="var-default">'localhost'</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$port</span> = <span class="var-default">4444</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">30000</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$driver</span> = <span class="var-default">'curl'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#addSelection" title="details" class="method-name">addSelection</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$optionLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#answerOnNextPrompt" title="details" class="method-name">answerOnNextPrompt</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$answer</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#check" title="details" class="method-name">check</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#chooseCancelOnNextConfirmation" title="details" class="method-name">chooseCancelOnNextConfirmation</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#click" title="details" class="method-name">click</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#close" title="details" class="method-name">close</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#fireEvent" title="details" class="method-name">fireEvent</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$eventName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getAlert" title="details" class="method-name">getAlert</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getAllButtons" title="details" class="method-name">getAllButtons</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getAllFields" title="details" class="method-name">getAllFields</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getAllLinks" title="details" class="method-name">getAllLinks</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getAttribute" title="details" class="method-name">getAttribute</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$attributeLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getBodyText" title="details" class="method-name">getBodyText</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getConfirmation" title="details" class="method-name">getConfirmation</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getCursorPosition" title="details" class="method-name">getCursorPosition</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getEval" title="details" class="method-name">getEval</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$script</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getExpression" title="details" class="method-name">getExpression</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$expression</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getHtmlSource" title="details" class="method-name">getHtmlSource</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getLocation" title="details" class="method-name">getLocation</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getPrompt" title="details" class="method-name">getPrompt</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getSelectedId" title="details" class="method-name">getSelectedId</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getSelectedIds" title="details" class="method-name">getSelectedIds</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getSelectedIndex" title="details" class="method-name">getSelectedIndex</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getSelectedIndexes" title="details" class="method-name">getSelectedIndexes</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getSelectedLabel" title="details" class="method-name">getSelectedLabel</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getSelectedLabels" title="details" class="method-name">getSelectedLabels</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$selectLocator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$optionLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getSelectedValue" title="details" class="method-name">getSelectedValue</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getSelectedValues" title="details" class="method-name">getSelectedValues</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">array</span>
+										<a href="#getSelectOptions" title="details" class="method-name">getSelectOptions</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getTable" title="details" class="method-name">getTable</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$tableCellAddress</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getText" title="details" class="method-name">getText</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getTitle" title="details" class="method-name">getTitle</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getValue" title="details" class="method-name">getValue</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#goBack" title="details" class="method-name">goBack</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isAlertPresent" title="details" class="method-name">isAlertPresent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isChecked" title="details" class="method-name">isChecked</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isConfirmationPresent" title="details" class="method-name">isConfirmationPresent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isEditable" title="details" class="method-name">isEditable</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isElementPresent" title="details" class="method-name">isElementPresent</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isPromptPresent" title="details" class="method-name">isPromptPresent</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isSomethingSelected" title="details" class="method-name">isSomethingSelected</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isTextPattern" title="details" class="method-name">isTextPattern</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$pattern</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">boolean</span>
+										<a href="#isVisible" title="details" class="method-name">isVisible</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#keyDown" title="details" class="method-name">keyDown</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$keycode</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#keyPress" title="details" class="method-name">keyPress</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$keycode</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#keyUp" title="details" class="method-name">keyUp</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$keycode</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#mouseDown" title="details" class="method-name">mouseDown</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#mouseOver" title="details" class="method-name">mouseOver</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#open" title="details" class="method-name">open</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#refresh" title="details" class="method-name">refresh</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#removeSelection" title="details" class="method-name">removeSelection</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$optionLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#select" title="details" class="method-name">select</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$optionLocator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#selectWindow" title="details" class="method-name">selectWindow</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$windowId</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#setContext" title="details" class="method-name">setContext</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$context</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$logLevelThreashould</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#setCursorPosition" title="details" class="method-name">setCursorPosition</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$position</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setDriver" title="details" class="method-name">setDriver</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$driver</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#setTimeout" title="details" class="method-name">setTimeout</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$timeout</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#start" title="details" class="method-name">start</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#stop" title="details" class="method-name">stop</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#submit" title="details" class="method-name">submit</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#type" title="details" class="method-name">type</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#uncheck" title="details" class="method-name">uncheck</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#waitForCondition" title="details" class="method-name">waitForCondition</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$script</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#waitForPageToLoad" title="details" class="method-name">waitForPageToLoad</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#waitForPopUp" title="details" class="method-name">waitForPopUp</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$windowId</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">null</span>])
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">110</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor</p>
+	<ul class="tags">
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Selenium</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$browser</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$browserUrl</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$host</span> = <span class="var-default">'localhost'</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$port</span> = <span class="var-default">4444</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">30000</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$driver</span> = <span class="var-default">'curl'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$browser</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$browserUrl</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$host</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$port</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$timeout</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$driver</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddSelection" id="addSelection"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">addSelection</span> (line <span class="line-number">367</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Add a selection to the set of selected options in a multi-select element using an option locator.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			addSelection
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$optionLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator identifying a multi-select box</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$optionLocator</span><span class="var-description">: an option locator (a label by default)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodanswerOnNextPrompt" id="answerOnNextPrompt"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">answerOnNextPrompt</span> (line <span class="line-number">485</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Instructs Selenium to return the specified answer string in response to  the next JavaScript prompt [window.prompt()].</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			answerOnNextPrompt
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$answer</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$answer</span><span class="var-description">: the answer to give in response to the prompt pop-up</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcheck" id="check"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">check</span> (line <span class="line-number">299</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Check a toggle-button (checkbox/radio)</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			check
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodchooseCancelOnNextConfirmation" id="chooseCancelOnNextConfirmation"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">chooseCancelOnNextConfirmation</span> (line <span class="line-number">470</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">By default, Selenium's overridden window.confirm() function will  return true, as if the user had manually clicked OK.  After running  this command, the next call to confirm() will return false, as if  the user had clicked Cancel.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			chooseCancelOnNextConfirmation
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodclick" id="click"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">click</span> (line <span class="line-number">177</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Clicks on a link, button, checkbox or radio button. If the click action  cause a new page to load (like a link usually does), call waitForPageToLoad.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			click
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodclose" id="close"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">close</span> (line <span class="line-number">525</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Simulates the user clicking the &quot;close&quot; button&quot; in the titlebar of a popup  window or tab.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			close
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodfireEvent" id="fireEvent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">fireEvent</span> (line <span class="line-number">193</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Explicitly simulate an event, to trigger the corresponding &quot;on&lt;em&gt;event&lt;/em&gt;&quot;  handler</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			fireEvent
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$eventName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$eventName</span><span class="var-description">: the event name, e.g. &quot;focus&quot; or &quot;blur&quot;</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetAlert" id="getAlert"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAlert</span> (line <span class="line-number">586</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieves the message of a JavaScript alert generated during the previous action, or fail if there were no alerts.</p>
+<p class="description"><p>Getting an alert has the same effect as manually clicking OK. If an  alert is generated but you do not get/verify it, the next Selenium action  will fail.  NOTE: under Selenium, JavaScript alerts will NOT pop up a visible alert  dialog.  NOTE: Selenium does NOT support JavaScript alerts that are generated in a  page's onload() event handler. In this case a visible dialog WILL be  generated and Selenium will hang until someone manually clicks OK.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getAlert
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAllButtons" id="getAllButtons"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAllButtons</span> (line <span class="line-number">986</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the IDs of all buttons on the page.</p>
+<p class="description"><p>If a given button has no ID, it will appear as &quot;&quot; in the array.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getAllButtons
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAllFields" id="getAllFields"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAllFields</span> (line <span class="line-number">1014</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the IDs of all nput fields on the page.</p>
+<p class="description"><p>If a given field has no ID, it will appear as &quot;&quot; in the array.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getAllFields
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAllLinks" id="getAllLinks"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAllLinks</span> (line <span class="line-number">1000</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the IDs of all links on the page.</p>
+<p class="description"><p>If a given link has no ID, it will appear as &quot;&quot; in the array.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getAllLinks
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetAttribute" id="getAttribute"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getAttribute</span> (line <span class="line-number">911</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the value of an element attribute</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getAttribute
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$attributeLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$attributeLocator</span><span class="var-description">: an element locator followd by an</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetBodyText" id="getBodyText"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getBodyText</span> (line <span class="line-number">672</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the entire text of the page.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getBodyText
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetConfirmation" id="getConfirmation"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getConfirmation</span> (line <span class="line-number">610</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieves the message of a JavaScript confirmation dialog generated during  the previous action.</p>
+<p class="description"><p>By default, the confirm function will return true, having the same effect  as manually clicking OK. This can be changed by prior execution of the  chooseCancelOnNextConfirmation command. If an confirmation is generated  but you do not get/verify it, the next Selenium action will fail.  NOTE: under Selenium, JavaScript confirmations will NOT pop up a visible  dialog.  NOTE: Selenium does NOT support JavaScript confirmations that are  generated in a page's onload() event handler. In this case a visible  dialog WILL be generated and Selenium will hang until you manually click  OK.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getConfirmation
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCursorPosition" id="getCursorPosition"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCursorPosition</span> (line <span class="line-number">1063</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieves the text cursor position in the given input element or textarea; beware, this may not work perfectly on all browsers.</p>
+<p class="description"><p>Specifically, if the cursor/selection has been cleared by JavaScript, this command will tend to  return the position of the last location of the cursor, even though the cursor is now gone from the page.  This is filed as SEL-243.  This method will fail if the specified element isn't an input element or textarea, or there is no cursor in the element.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getCursorPosition
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator poiting to an input element or textarea</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetEval" id="getEval"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getEval</span> (line <span class="line-number">728</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the result of evaluating the specified JavaScript snippet.  The snippet may  have multiple lines, but only the result of the last line will be returned.</p>
+<p class="description"><p>Note that, by default, the snippet will run in the context of the &quot;selenium&quot;  object itself, so &lt;tt&gt;this&lt;/tt&gt; will refer to the Selenium object, and &lt;tt&gt;window&lt;/tt&gt; will  refer to the top-level runner test window, not the window of your application.  If you need a reference to the window of your application, you can refer  to &lt;tt&gt;this.browserbot.getCurrentWindow()&lt;/tt&gt; and if you need to use  a locator to refer to a single element in your application page, you can  use &lt;tt&gt;this.page().findElement(&quot;foo&quot;)&lt;/tt&gt; where &quot;foo&quot; is your locator.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getEval
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$script</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$script</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetExpression" id="getExpression"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getExpression</span> (line <span class="line-number">1101</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the specified expression.</p>
+<p class="description"><p>This is useful because of JavaScript preprocessing.  It is used to generate commands like assertExpression and waitForExpression.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getExpression
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$expression</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$expression</span><span class="var-description">: the value to return</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetHtmlSource" id="getHtmlSource"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getHtmlSource</span> (line <span class="line-number">1028</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the entire HTML source between the opening and  closing &quot;html&quot; tags.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getHtmlSource
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLocation" id="getLocation"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getLocation</span> (line <span class="line-number">646</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the absolute URL of the current page.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getLocation
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetPrompt" id="getPrompt"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPrompt</span> (line <span class="line-number">633</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retrieves the message of a JavaScript question prompt dialog generated during  the previous action.</p>
+<p class="description"><p>Successful handling of the prompt requires prior execution of the  answerOnNextPrompt command. If a prompt is generated but you  do not get/verify it, the next Selenium action will fail.  NOTE: under Selenium, JavaScript prompts will NOT pop up a visible  dialog.  NOTE: Selenium does NOT support JavaScript prompts that are generated in a  page's onload() event handler. In this case a visible dialog WILL be  generated and Selenium will hang until someone manually clicks OK</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getPrompt
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetSelectedId" id="getSelectedId"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectedId</span> (line <span class="line-number">869</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets option element ID for selected option in the specified select element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getSelectedId
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSelectedIds" id="getSelectedIds"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectedIds</span> (line <span class="line-number">855</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets all option element IDs for selected options in the specified select or multi-select element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getSelectedIds
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSelectedIndex" id="getSelectedIndex"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectedIndex</span> (line <span class="line-number">841</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets option index (option number, starting at 0) for selected option in the specified select element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getSelectedIndex
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSelectedIndexes" id="getSelectedIndexes"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectedIndexes</span> (line <span class="line-number">827</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets all option indexes (option number, starting at 0) for selected options in the specified select or multi-select element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getSelectedIndexes
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSelectedLabel" id="getSelectedLabel"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectedLabel</span> (line <span class="line-number">785</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets all option labels (visible text) for selected options in the specified selector multi-select element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getSelectedLabel
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSelectedLabels" id="getSelectedLabels"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectedLabels</span> (line <span class="line-number">771</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getsall option labels (visible text) for selected options in the specified select or multi-select element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getSelectedLabels
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$selectLocator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$optionLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$optionLocator</span><span class="var-description">: an option locator (a label by default)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$selectLocator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSelectedValue" id="getSelectedValue"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectedValue</span> (line <span class="line-number">813</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets option value (value attribute) for selected option in the specified select element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getSelectedValue
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSelectedValues" id="getSelectedValues"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectedValues</span> (line <span class="line-number">799</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets all option values (value attributes) for selected options in the specified select or multi-select element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getSelectedValues
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSelectOptions" id="getSelectOptions"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSelectOptions</span> (line <span class="line-number">897</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets all option labels in the specified select drop-down.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getSelectOptions
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetTable" id="getTable"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTable</span> (line <span class="line-number">757</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the text from a cell of a table. The cellAddress syntax  tableLocator.row.column, where row and column start at 0.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getTable
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$tableCellAddress</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$tableCellAddress</span><span class="var-description">: a cell address, e.g. &quot;foo.1.4&quot;</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetText" id="getText"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getText</span> (line <span class="line-number">705</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the text of an element. This works for any element that contains</p>
+<p class="description"><p>text. This command uses either the textContent (Mozilla-like browsers) or  the innerText (IE-like browsers) of the element, which is the rendered  text shown to the user</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getText
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetTitle" id="getTitle"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getTitle</span> (line <span class="line-number">659</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the title of the current page.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getTitle
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetValue" id="getValue"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getValue</span> (line <span class="line-number">688</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets the (whitespace-trimmed) value of an input field (or anything else with a value parameter).</p>
+<p class="description"><p>For checkbox/radio elements, the value will be &quot;on&quot; or &quot;off&quot; depending on  whether the element is checked or not.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getValue
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgoBack" id="goBack"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">goBack</span> (line <span class="line-number">498</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Simulates the user clicking the &quot;back&quot; button&quot; on their browser.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			goBack
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisAlertPresent" id="isAlertPresent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isAlertPresent</span> (line <span class="line-number">538</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Has an alert occured?</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isAlertPresent
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisChecked" id="isChecked"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isChecked</span> (line <span class="line-number">742</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets whether a toggle-button (checkbox/radio) is checked. Fails if the specified element does't exist or isn't a toggle button.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isChecked
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisConfirmationPresent" id="isConfirmationPresent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isConfirmationPresent</span> (line <span class="line-number">564</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Has confirm() been called?</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isConfirmationPresent
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisEditable" id="isEditable"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isEditable</span> (line <span class="line-number">972</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Determines whether the specified input element is editable, ie hasn't been disabled.</p>
+<p class="description"><p>This method will fail if the specified element isn't an input element.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isEditable
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisElementPresent" id="isElementPresent"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isElementPresent</span> (line <span class="line-number">939</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Verifies that the specified element is somewhere on the page.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isElementPresent
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisPromptPresent" id="isPromptPresent"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isPromptPresent</span> (line <span class="line-number">551</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Has a prompt occured?</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isPromptPresent
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisSomethingSelected" id="isSomethingSelected"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isSomethingSelected</span> (line <span class="line-number">883</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Determines whether some option in a drop-down menu is selected.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isSomethingSelected
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisTextPattern" id="isTextPattern"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">isTextPattern</span> (line <span class="line-number">925</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Verifies that the specified text pattern appears somewhere on the rendered page shown to the user.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isTextPattern
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$pattern</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$pattern</span><span class="var-description">: a pattern to match with the text of the page</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodisVisible" id="isVisible"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isVisible</span> (line <span class="line-number">957</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Determines if the specified element is visible. An</p>
+<p class="description"><p>element can be rendered invisible by setting the CSS &quot;visibility&quot;  property to &quot;hidden&quot;, or the &quot;display&quot; property to &quot;none&quot;, either for the  element itself or one if its ancestors.  This method will fail if  the element is not present.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">boolean</span>
+		<span class="method-name">
+			isVisible
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodkeyDown" id="keyDown"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">keyDown</span> (line <span class="line-number">223</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Simulates a user pressing and pressing a key (without releasing it yet).</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			keyDown
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$keycode</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$keycode</span><span class="var-description">: the numeric keycode of the key to be pressed, normally the ASCII value of that key.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodkeyPress" id="keyPress"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">keyPress</span> (line <span class="line-number">208</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Simulates a user pressing and releasing a key.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			keyPress
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$keycode</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$keycode</span><span class="var-description">: the numeric keycode of the key to be pressed, normally the ASCII value of that key.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodkeyUp" id="keyUp"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">keyUp</span> (line <span class="line-number">238</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Simulates a user releasing a key</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			keyUp
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$keycode</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$keycode</span><span class="var-description">: the numeric keycode of the key to be pressed, normally the ASCII value of that key.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmouseDown" id="mouseDown"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">mouseDown</span> (line <span class="line-number">267</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Simulates a user pressing the mouse button (without releasing it yet) on  the specified element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			mouseDown
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodmouseOver" id="mouseOver"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">mouseOver</span> (line <span class="line-number">252</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Simulates a user hovering a mouse over the specified element.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			mouseOver
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodopen" id="open"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">open</span> (line <span class="line-number">420</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Open the UrL in the test frame. This accepts both relative and absolute  URLs.</p>
+<p class="description"><p>The &quot;open&quot; command waits for the page to load before proceeding.  ie. the &quot;AndWait&quot; suffix is implicit.</p><p>&lt;em&gt;Note&lt;/em&gt;: The URL must be on the same domain as the runner HTML  due to security restrictions in the browser (Same Origin Policy). If you  need to open an URL on another domain, use the Selenium Server to start a  new browser session on that domain.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			open
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$url</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$url</span><span class="var-description">: the URL to open; may be relative or absolute</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodrefresh" id="refresh"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">refresh</span> (line <span class="line-number">511</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Simulates the user clicking the &quot;Refresh&quot; button&quot; on their browser.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			refresh
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodremoveSelection" id="removeSelection"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">removeSelection</span> (line <span class="line-number">382</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Remove a selection to the set of selected options in a multi-select element using an option locator.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			removeSelection
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$optionLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator identifying a multi-select box</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$optionLocator</span><span class="var-description">: an option locator (a label by default)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodselect" id="select"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">select</span> (line <span class="line-number">352</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Select an option from a drop-down using an option locator.</p>
+<p class="description"><p>Option locators provide different ways of specifying options of an HTML  Select element (e.g. for selecting a specific option, or for asserting  that the selected option satisfies a specification). There are several  forms of Select Option Locator.</p><p><strong>label</strong>=&lt;em&gt;labelPattern&lt;/em&gt;::  matches options based on their labels, i.e. the visible text. (This  is the default.)    label=regexp:^[Oo]ther</p><p><strong>value</strong>=&lt;em&gt;valuePattern&lt;/em&gt;::  matches options based on their values.     value=other</p><p><strong>id</strong>=&lt;em&gt;id&lt;/em&gt;::  matches options based on their ids.     id=option1</p><p><strong>index</strong>=&lt;em&gt;index&lt;/em&gt;::  matches an option based on its index (offset from zero).     index=2</p><p>If no option locator prefix is provided, the default behaviour is to match on <strong>label</strong>.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			select
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$selectLocator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$optionLocator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$selectLocator</span><span class="var-description">: an element locator identifying a drop-down menu</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$optionLocator</span><span class="var-description">: an option locator (a label by default)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodselectWindow" id="selectWindow"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">selectWindow</span> (line <span class="line-number">436</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Selects a popup window; once a popup window has been selected, all  commands go to that window. To select the main window again, use &quot;null&quot;  as the target.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			selectWindow
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$windowId</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$windowId</span><span class="var-description">: the JavaScript window ID of the window to select</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetContext" id="setContext"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setContext</span> (line <span class="line-number">1084</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Writes a message to the status bar and adds a note to the browser-side  log.</p>
+<p class="description"><p>If logLevelThreshold is specified, set the threshold for logging  to that level (debug, info, warn, error).  (Note that the browser-side logs will &lt;em&gt;not&lt;/em&gt; be sent back to the  server, and are invisible to the Client Driver.)</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			setContext
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$context</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$logLevelThreashould</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$context</span><span class="var-description">: the message to be sent to the browser</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$logLevelThreashould</span><span class="var-description">: one of &quot;debug&quot;, &quot;info&quot;, &quot;warn&quot; , &quot;error&quot;, sets the thrshould for browser-side logging</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetCursorPosition" id="setCursorPosition"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setCursorPosition</span> (line <span class="line-number">1046</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Moves the text cursor to the specified position in the given input element or textarea.</p>
+<p class="description"><p>This method will fail if the specified element isn't an input element or textarea</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			setCursorPosition
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$position</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator pointing to an input element or textarea</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$position</span><span class="var-description">: the numerical position of the cursor in the field; position should be 0 to move the position to the beginning of the field. You can also set the cursor to -1 to move it to the endo of the field.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetDriver" id="setDriver"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setDriver</span> (line <span class="line-number">130</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set driver for HTTP Request.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setDriver
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$driver</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$driver</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetTimeout" id="setTimeout"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setTimeout</span> (line <span class="line-number">1141</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Specifies the amount of time that Selenium will wait for actions to complete.</p>
+<p class="description"><p>Actions that require waiting include &quot;open&quot; and the &quot;waitFor*&quot; actions.  The default timeout is 30 seconds.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			setTimeout
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$timeout</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$timeout</span><span class="var-description">: in milliseconds, after which the action will return with an error</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodstart" id="start"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">start</span> (line <span class="line-number">147</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Run the browser and set session id.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			start
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodstop" id="stop"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">stop</span> (line <span class="line-number">161</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Close the browser and set session id null</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			stop
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsubmit" id="submit"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">submit</span> (line <span class="line-number">397</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Submit the specified form. This is particularly useful for forms without  submit buttons, e.g. single-input &quot;Search&quot; forms.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			submit
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtype" id="type"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">type</span> (line <span class="line-number">285</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set the value of an input field, as though you typed it in.</p>
+<p class="description"><p>can also be used to set the value of combo boxes, check boxes, etc. In these cases,  value should be the value of the option selected, not the visible text.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			type
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span><span class="var-description">: the value to type</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoduncheck" id="uncheck"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">uncheck</span> (line <span class="line-number">313</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Uncheck a toggle-button (checkbox/radio)</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			uncheck
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$locator</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$locator</span><span class="var-description">: an element locator</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwaitForCondition" id="waitForCondition"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">waitForCondition</span> (line <span class="line-number">1122</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Runs the specified JavaScript snippet repeatedly until it evaluates to &quot;true&quot;.</p>
+<p class="description"><p>The snippet may have multiple lines, but only the result of the last line  will be considered.  Note that, by default, the snippet will be run in the runner's test window, not in the window  of your application.  To get the window of your application, you can use  the JavaScript snippet &lt;tt&gt;selenium.browserbot.getCurrentWindow()&lt;/tt&gt;, and then  run your JavaScript in there</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			waitForCondition
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$script</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$script</span><span class="var-description">: the JavaScript snippet to run</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$timeout</span><span class="var-description">: in milliseconds, after which this command will return with an error</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwaitForPageToLoad" id="waitForPageToLoad"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">waitForPageToLoad</span> (line <span class="line-number">1162</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Waits for a new page to load.</p>
+<p class="description"><p>You can use this command instead of the &quot;AndWait&quot; suffixes, &quot;clickAndWait&quot;, &quot;selectAndWait&quot;, &quot;typeAndWait&quot; etc.  (which are only available in the JS API).  Selenium constantly keeps track of new pages loading, and sets a &quot;newPageLoaded&quot;  flag when it first notices a page load.  Running any other Selenium command after  turns the flag to false.  Hence, if you want to wait for a page to load, you must  wait immediately after a Selenium command that caused a page-load.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			waitForPageToLoad
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$timeout</span><span class="var-description">: a timeout in milliseconds, after which this command will return with an error</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwaitForPopUp" id="waitForPopUp"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">waitForPopUp</span> (line <span class="line-number">451</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Wait for a popup window to appear and load up.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> on success, error object on failure</li>
+				<li><span class="field">access:</span> public</li>
+				<li><span class="field">throws:</span> Selenium_Exception</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			waitForPopUp
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$windowId</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$timeout</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$windowId</span><span class="var-description">: the JavaScript window ID of the window to select</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$timeout</span><span class="var-description">: a timeout in milliseconds, after which the action will return with an error</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Wed, 06 Sep 2006 23:24:47 +0900 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.3.0RC6</a>
+	</p>
+	</div></body>
+</html>

@@ -1,0 +1,15 @@
+See: http://www.openqa.org/selenium-rc/php.html
+
+
+First, make sure you've already started the Java Selenium Server separately in another process. The Selenium Server should remain up and running throughout this process; you shouldn't need to start/stop it each time you use the Client Driver. (Though, of course, if you need to start and stop the server, you certainly can, just by automatically starting it from the command line.)
+
+Once you've installed the PHP Client Driver in one way or another, you'll need to require_once 'Testing/Selenium.php'; to get access to the Testing_Selenium class. (Make sure this path is in your include path!)
+
+Then you can just create a new Testing_Selenium object, which is full of handy methods that handly your Selenium commands. You'll need to initialize the object using the hostname and port of the Selenium Server, the browser string to use with "getNewBrowserSession" (e.g. "*firefox"), and the base URL at which we'll start testing. When you're ready to begin, run the "start" method on your Testing_Selenium object; when it's time to close the browser, use the "stop" method. If one of the methods has an error, Testing_Selenium will throw a Testing_Selenium_Exception, which you can wrap up in a try/catch block if you like.
+
+While we recommend that you use the PHP Client Driver together with a testing framework like PHPUnit, a testing framework is not required; you can use the PHP Client Driver with any program whatsoever to automate tasks in your browser. (Note that there's more than one project called "PHPUnit" out there; we recommend using the version by Sebastian Bergmann available at phpunit.de, the one available at sourceforge.net isn't as mature.)
+
+
+To Start Selenium RC Server
+
+$java -jar selenium-server.jar
