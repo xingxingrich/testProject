@@ -21,7 +21,7 @@ class testBase extends PHPUnit_Framework_TestCase {
 	function testMyTestCase() {
 		$this->selenium->open ( "/" );
 		$this->selenium->type("smart_input", "xxx");
-		$this->selenium->click("//input[@value='ËÑ Ë÷']");
+		$this->selenium->click("//input[@value='æœç‹—æœç´¢']");
 		$this->selenium->waitForPageToLoad("30000");
 			$this->assertEquals("xxx",$this->selenium->getValue("//input[@id='smart_input']"));
 		$this->assertNotNull($this->selenium->getText("//div[@id='zdq_bingo']"));
